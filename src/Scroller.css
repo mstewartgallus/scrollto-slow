@@ -1,0 +1,16 @@
+.Scroller {
+    box-sizing: border-box;
+    display: flow-root;
+    contain: layout size style paint;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.Scroller {
+    padding-inline: 2em;
+    padding-block: 2em;
+}
